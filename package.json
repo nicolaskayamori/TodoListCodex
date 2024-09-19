@@ -25,7 +25,7 @@
     "nodemon": "^3.1.4"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "[my-framework] build --output public",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
   }
 }
