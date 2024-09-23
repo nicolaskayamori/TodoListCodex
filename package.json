@@ -2,8 +2,12 @@
   "name": "codex",
   "version": "1.0.0",
   "description": "To do app",
-  "main": "index.js",
-  "repository": "https://github.com/nicolaskayamori/ToDoList-Codex.git",
+  "main": "app.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaskayamori/ToDoList-Codex.git"
+  },
   "author": "Nicolas K Huschak <nicolaskayamori@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -29,5 +33,10 @@
   "scripts": {
     "build": "react-scripts build --output public",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
-  }
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nicolaskayamori/ToDoList-Codex/issues"
+  },
+  "homepage": "https://github.com/nicolaskayamori/ToDoList-Codex#readme"
 }
